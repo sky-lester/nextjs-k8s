@@ -1,0 +1,6 @@
+services:
+  nextjs-k8s:
+    image: skylester/nextjs-k8s
+    build: .
+    ports:
+      - "3000:3000"
